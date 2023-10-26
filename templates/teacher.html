@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Teacher Page</title>
+</head>
+<body>
+    <h1>Common Topics Checked: {{ common_topics }}</h1>
+    <form action="/submit" method="post">
+        <input type="checkbox" name="topic1" value="1"> Topic 1<br>
+        <input type="checkbox" name="topic2" value="1"> Topic 2<br>
+        <input type="checkbox" name="topic3" value="1"> Topic 3<br>
+        <input type="checkbox" name="topic4" value="1"> Topic 4<br>
+        <input type="checkbox" name="topic5" value="1"> Topic 5<br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
